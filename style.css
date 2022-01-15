@@ -1,0 +1,173 @@
+/*poppins font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');/* common styles or Utilities*/
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+   
+    
+}
+/*----------
+header style
+------------*/
+.first-h3{
+    padding-left: 10%;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    
+   padding-left: 10%;
+   padding-right: 10%;
+    
+    
+}
+/*
+.head-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 36px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 180px;
+} */
+.container1{
+    display: flex;
+    align-items: center;
+}
+
+.first-section{
+    display: flex;
+    padding: 10%;
+}
+
+.first-h1{
+    margin-right: 50px;
+}
+
+
+
+
+
+.first-paragraph{
+    margin-top: 86px;
+}
+
+.preebook{
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    width: 196px;
+    height: 44px;
+    border-radius: 31px;
+    font-size: 1em;
+    padding: 1%;
+}
+
+.button{
+    margin-right: 10px;
+    width: 116px;
+    height: 24px;
+}
+
+.preebook-text{
+    width: 116px;
+    height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+.right-arrow i{
+    color: honeydew;
+    margin-left: 8px;
+}
+
+.main-camera img{
+    width: 440px;
+    position: relative;
+    right: 40px;
+}
+
+
+/*--------
+Collection style
+------------*/
+
+.shadow{
+    box-shadow: 10px 5px 5px red;
+}
+
+
+.section2 h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.collections{
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+}
+
+.shadow{
+    box-shadow: 10px 5px 10px silver;
+}
+
+.star-gold i{
+    color: #FB8200;
+}
+
+.gray-small{
+    color: #787885;
+  
+}
+
+.see-more{
+    color: #E02C6D;
+    margin-left: 1000px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.right-arrow-white i{
+    color: #E02C6D;
+    margin-top: 2%;
+}
+
+.extra{
+    margin-top: 2%;
+    margin-left: 37px;
+    margin-bottom: 4%;
+}
+
+.extra i{
+    color: blue;
+}
+.extra a{
+    color: coral;
+}
+
+/*footer style */
+footer{
+    background-color: #0A0826;
+    margin-top: 2%;
+    width: 100vw;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.footer h2{
+    color: honeydew;
+}
+.footer p{
+    color: honeydew;
+}
+
+.icons i{
+    color: honeydew;
+    width: 32px;
+    height: 30px;
+    align-content: center;
+    
+}
